@@ -1,0 +1,261 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.main{
+    background-image: url('netflix.jpg');
+    background-position: center center;
+    height: 75vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: max(1200px,100vw);
+    background-color: black;
+}
+.main .backsection{
+    width: 100%;
+    height: 75vh;
+    opacity: 0.66;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    height: 62px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav img{
+    position: relative;
+    z-index: 10;
+    margin-top: 20px;
+    width: 9rem;
+}
+.button .button1{
+    position: relative;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.369);
+    color: rgba(255,255,255,1);
+    opacity: 0.6;
+    font-size: medium;
+    height: 2rem;
+    width: 8rem;
+    margin: 1.3rem;
+    border-radius: 0.34rem;
+    border: 1px solid white;
+}
+.button .button2{
+    position: relative;
+    z-index: 10;
+    background-color: red;
+    height: 1.9rem;
+    width: 4.5rem;
+    border-radius: 0.3rem;
+    color: white;
+}
+.content{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    gap: 18px;
+}
+.content .one{
+    font-weight: 1000;
+    font-size: 35px;
+    margin: 0 auto;
+    text-align: center;
+}
+.content .two{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+.content .three{
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+.email{
+    position: relative;
+    gap: 6px;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+.email input{
+    height: 40px;
+    width: 300px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid rgba(255, 255, 255, 0.292);
+    border-radius: 3px;
+    font-size: 14px;
+}
+.email button{
+    height: 43px;
+    width: 150px;
+    font-size: 19px;
+    border: 0.1px solid red;
+    background-color: red;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+}
+.break_pt{
+    height: 7px;
+    background-color: rgba(0, 0, 0, 0.864);
+}
+.first{
+    height: 430px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+    position: relative;
+}
+.first .writing1{
+    height: 98px;
+    width: 450px;
+}
+.first .para1{
+    font-size: 35px;
+    font-weight: 900;
+    
+}
+.first .para2{
+    font-size: 18px;
+}
+.first img{
+    height: 330px;
+    position: relative;
+    z-index: 10;
+}
+.video1 video{
+    position: absolute;
+    height: 200px;
+    right: 320px;
+    top: 115px;
+}
+.second{
+    height: 430px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+    position: relative;
+}
+.second img{
+    height: 20rem;
+    width: 28rem;
+    /* margin-left: 10rem;
+    margin-top: 1rem; */
+}
+ .photo{
+    height: 60px;
+    width: 220px;
+    border: 2px solid rgba(255, 255, 255, 0.292);
+    margin-left: -21.7rem;
+    margin-top: 13.5rem;
+    border-radius: 9px;
+    padding: 8px 8px;
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+ .photo .img1{
+    height: 60px;
+    width: 40px;
+    position: absolute;
+}
+.photo p{
+    font-family: sans-serif;
+}
+.photo span{
+    color: rgb(0, 89, 255);
+}
+.photo span img{
+    height: 3rem;
+    width: 3rem;
+   
+}
+.second .writing2{
+    width: 610px;
+    height: 299px;
+    margin-left: 15rem;
+}
+.second .para3{
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+    margin-right:10rem;
+    padding: 1rem;
+}
+.second .para4{
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-left: 1.3rem;
+}
+.fourth .writing1{
+    width: 420px;
+}
+.v2 video{
+    height: 245px;
+    width: 280px;
+   position: absolute;
+   top: 42px;
+   right: 380px;
+}
+.footer{
+    width: 95.5%;
+    height: 80vh;
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 34px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.footer h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.foot_box{
+    display: flex;
+    justify-content: space-between;
+    width: 120vh;
+    padding: 20px;
+    background-color: rgb(48, 48, 48);
+    margin: 5px auto;
+    font-size: large;
+}
+.foot_box:hover{
+    transition: all 0.1s ease-in;
+    background-color: rgba(128, 128, 128, 0.484);
+}
+.last{
+    text-align: center;
+}
+.footer_end{
+    height: 40vh;
+    color: white;
+    background-color: black;
+    text-underline-position: below;
+}
